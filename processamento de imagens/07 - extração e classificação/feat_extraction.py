@@ -8,7 +8,7 @@ labels = ['EOSINOPHIL', 'LYMPHOCYTE', 'NEUTROPHIL','MONOCYTE']
 
 features_list = list()
 
-base_path = r'C:\Users\andre\OneDrive\Documentos\atividades\estudos_opencv\processamento de imagens\06-separando_ComBasenosNomes\imagens_etapa07\\'
+base_path = r'C:\Users\andre\Documents\atividade\estudos_opencv\processamento de imagens\06-separando_ComBasenosNomes\imagens_etapa07\\'
 
 for label in labels: # usado apenas para passar por cada uma das pastas com imagens.
     
@@ -38,7 +38,7 @@ features_names = mahotas.features.texture.haralick_labels
 
 features_names = numpy.append(features_names, 'Label')
 
-saida_csv = r'C:\Users\andre\OneDrive\Documentos\atividades\estudos_opencv\processamento de imagens\07 - extração e classificação\dados.csv'
+saida_csv = r'C:\Users\andre\Documents\atividade\estudos_opencv\processamento de imagens\07 - extração e classificação\\dados.csv'
 
 df = pandas.DataFrame(data = features_list, columns = features_names)
 

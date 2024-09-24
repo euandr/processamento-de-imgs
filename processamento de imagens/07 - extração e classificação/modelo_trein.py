@@ -23,7 +23,7 @@ def get_metrics(y_true, y_pred):
 
 
 
-df = pandas.read_csv('C:\\Users\\andre\\OneDrive\\Documentos\\atividades\\estudos_opencv\\processamento de imagens\\07 - extração e classificação\\dados.csv', delimiter = ';')
+df = pandas.read_csv(r'C:\Users\andre\Documents\atividade\estudos_opencv\processamento de imagens\07 - extração e classificação\\dados.csv', delimiter = ';')
 
 df['Label'] = df['Label'].astype(int)-1 # convertendo p/ inteiros, subtraindo 1, pq comeÇa do 0
 
@@ -59,4 +59,4 @@ print(metrics)
 
 
 
-pickle.dump(model, open('C:\\Users\\andre\\OneDrive\\Documentos\\atividades\\estudos_opencv\\processamento de imagens\\07 - extração e classificação\\modelo.pkl', 'wb'))
+# pickle.dump(model, open('C:\Users\andre\Documents\atividade\estudos_opencv\processamento de imagens\07 - extração e classificação\\modelo.pkl', 'wb'))
