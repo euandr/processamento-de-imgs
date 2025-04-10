@@ -1,0 +1,23 @@
+\begin{table}[H]
+\centering
+\caption{Desempenho dos esquemas de cor no diagnóstico de câncer seroso de ovário usando VGG+RandomForest.}
+\vspace{0.5cm} % Espaço entre a legenda e a tabela
+\label{tab:esquemas_cor}
+\begin{tabular}{l|c|c|c|c|c|c|c|c}
+\hline
+\hline
+\multicolumn{1}{c|}{\textbf{Esquema de Cor}} & \textbf{CNN+Classificador} & \textbf{ACC} & \textbf{SEN} & \textbf{ESP} & \textbf{PRE} & \textbf{F1-Score} & \textbf{Kappa} & \textbf{AUC} \\ \hline
+XYZ              & -- & --\%      & --\%      & --\%      & 
+---\%         & -- & -- & -- \\ \hline
+
+HSV                   & -- & ---\%      & --\%      & --\%      & --\%         & -- & -- & -- \\ \hline
+
+LUV                   & -- & --\%      & --\%      & --\%      & --\%         & -- & -- & -- \\ \hline
+
+RGB                   & -- & ---\%      & --\%      & --\%      & --\%         & -- & -- & -- \\ \hline
+
+Grayscale             & -- & --\%      &---\%      & --\%      & --\%         & -- & -- & -- \\ \hline
+
+LAB                   & -- & --\%      & --\%      & --\%      & --\%         & -- & -- & -- \\ \hline \hline
+\end{tabular}
+\end{table}
